@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.sidebar{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-image: url(imagenes/back2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    filter: drop-shadow(0 0 4px antiquewhite);
+    
+   
+    
+    
+   
+    
+    
+    
+}
+
+.sidebar img{
+    margin-top: 1.2em;
+    cursor: pointer;
+}
+
+.sidebar ul li{
+    margin: 1em;
+    list-style: none;
+    
+    
+    
+}
+
+.sidebar ul li .menu:hover{
+    background-color: black;
+    color: yellow;
+}
+
+
+.sidebar li ul{
+    display:none ;
+     min-width: 150px;
+           
+     } 
+    
+.sidebar li:hover >ul{
+    display: block;
+    
+    }
+
+.sidebar ul li ul li a{
+color: white;
+}
+
+.sidebar ul li ul li a:hover{
+    
+    color: yellow;
+    }
+    
+    
+.sidebar  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+     
+    
+}
+
+
+.sidebar a:hover{
+    color: antiquewhite;
+}
+
+.side-hide{
+    float: right;
+    margin: 1em;
+    color: black;
+}
+
+
+.log{
+    display: grid;
+    place-items: center;
+    margin: 1em auto;
+    
+}
+
+.sidebar img{
+    border: 3px inset antiquewhite;
+    border-radius: 8em;
+    
+    
+    
+    
+}
+
+
+.div-home{
+    text-align: center;
+    font-size: 2em;
+    width: 85%;
+    height: auto;
+    float: right;
+    border: 1px solid black;
+    filter: drop-shadow(0 0 4px antiquewhite);
+    background-color: aqua;
+   
+   
+}
+
+
+.div-home h1{
+    background-image: url(imagenes/back2.jpg);
+    font-size: 1.5em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: wheat;
+    
+
+}
+
+.div-home h1:hover{
+    color: orange;
+}
+
+
+.img-home{
+    width: 85%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-image: url(imagenes/centro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+
+    
+
+    
+}
+
+
+
+.img-home img{
+width: 35em;
+background-color: antiquewhite;
+opacity: .6;
+border-radius: 20em;
+transition: .7s all ease;
+}
+
+
+.img-home img:hover{
+    margin-bottom: 9em;
+    cursor: pointer;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+
